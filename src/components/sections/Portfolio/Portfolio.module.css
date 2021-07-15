@@ -1,0 +1,13 @@
+.portfolio {
+    padding: 6rem 7rem 6rem 9rem;
+}
+.primary {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    align-items:flex-end;
+}
+.portfolioText {
+    text-align: right;
+    padding-left: 20rem;
+    font-size: 1.4rem;
+}
