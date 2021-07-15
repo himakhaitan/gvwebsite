@@ -1,0 +1,43 @@
+.logo {
+  text-align: center;
+  display: inline-block;
+}
+
+.sub {
+  font-family: "Raleway", sans-serif;
+  font-size: 150%;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+.sub::after,
+.sub::before {
+  content: "";
+  position: absolute;
+  width: 3rem;
+  height: 2px;
+  transform: translateX(-50%);
+  top: 50%;
+  background-color: #272727;
+}
+
+.sub::after {
+  left: 25%;
+}
+.sub::before {
+  right: 05%;
+}
+
+.main {
+    font-family: 'Raleway', sans-serif;
+    font-size: 180%;
+    font-weight: 700;
+}
+
+.tagline {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 160%;
+    margin-top: 0.5rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+}
