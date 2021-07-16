@@ -20,9 +20,9 @@ export default function Team() {
           <div>
           <TeamMember
             post="Founder | Developer"
-            instagram=""
-            linkedin=""
-            facebook=""
+            instagram="https://www.instagram.com/hima_khaitan/"
+            linkedin="https://www.linkedin.com/in/himanshu-khaitan/"
+            facebook="https://www.facebook.com/himanshu.khaitan.98/"
             name="Himanshu Khaitan"
             img={himanshu}
           />
@@ -30,9 +30,9 @@ export default function Team() {
          <div>
          <TeamMember
             post="Founder | Digital Marketer"
-            instagram=""
-            linkedin=""
-            facebook=""
+            instagram="https://www.instagram.com/discretestylee/"
+            linkedin="https://www.linkedin.com/in/harsh-khaitan-568050131/"
+            facebook="https://www.facebook.com/khaitanh"
             name="Harsh Khaitan"
             img={harsh}
           />
