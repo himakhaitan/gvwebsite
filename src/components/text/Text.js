@@ -34,12 +34,17 @@ export default function Text(props) {
     // <div className={styles.container} onClick={() => set((state) => !state)}>
     <div className={styles.container} onClick={setHandler}>
       <div className={props.primary}>
-        <Trail open={open}>
+        {props.left && <Trail open={open}>
           {props.text.map((item) => {
-            return <span>{item}</span>;
+            return <span className={props.color}>{item}</span>;
           })}
-        </Trail>
+        </Trail>}
         <div>{props.children}</div>
+        {!props.left && <Trail open={open}>
+          {props.text.map((item) => {
+            return <span className={props.color}>{item}</span>;
+          })}
+        </Trail>}
       </div>
     </div>
   );

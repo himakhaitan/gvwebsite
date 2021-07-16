@@ -6,7 +6,12 @@ const Portfolio = () => {
   const text = ["Our", "Digital", "Portfolio ."];
   return (
     <div className={classes.portfolio}>
-      <Text text={text} secondary={classes.secondary} primary={classes.primary}>
+      <Text
+        left={true}
+        text={text}
+        color={classes.color}
+        primary={classes.primary}
+      >
         <div className={classes.portfolioText}>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
           molestias eaque aut qui excepturi id! Quae sunt voluptatem placeat

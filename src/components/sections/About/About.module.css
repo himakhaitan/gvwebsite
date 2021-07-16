@@ -1,0 +1,14 @@
+.about {
+    padding: 6rem 7rem 6rem 9rem;
+    color: #fff;
+    background-color: #020001;
+}
+.primary {
+    display: grid;
+    grid-template-columns: 1fr max-content;
+}
+
+.color {
+    color: #fff;
+    letter-spacing: 0.15rem;
+}
