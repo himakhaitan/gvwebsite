@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import classes from "./Navigation.module.css";
 import { HiMenu, HiOutlineMail } from "react-icons/hi";
 import { FaInstagram } from "react-icons/fa";
