@@ -1,6 +1,6 @@
 import classes from "./About.module.css";
 import Text from "../../text/Text";
-const About = () => {
+const About = (props) => {
   const text = ["About", "Geeky Vision ."];
   const data = [
     {
@@ -21,7 +21,7 @@ const About = () => {
   ];
 
   return (
-    <div className={classes.about}>
+    <div className={classes.about} id={props.id}>
       <Text
         left={false}
         text={text}

@@ -6,7 +6,7 @@ const Footer = (props) => {
   const d = new Date();
   const n = d.getFullYear();
   return (
-    <footer className={classes.footer}>
+    <footer className={classes.footer} id={props.id}>
       <div className={classes.main}>
         <div>
           <div className={classes.footergroup}>

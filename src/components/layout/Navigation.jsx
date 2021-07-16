@@ -27,7 +27,7 @@ const Navigation = (props) => {
         <ul
           className={`${nav ? classes.navanimate : ""} ${classes.navigation}  `}
         >
-          <a href="/">
+          <a href="/#home">
             <li className={classes.listitem}>Home</li>
           </a>
           <a href="/#about">

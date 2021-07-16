@@ -2,10 +2,10 @@ import React from "react";
 import classes from "./Portfolio.module.css";
 import Text from "../../text/Text";
 import Pictures from "./Pictures";
-const Portfolio = () => {
+const Portfolio = (props) => {
   const text = ["Our", "Digital", "Portfolio ."];
   return (
-    <div className={classes.portfolio}>
+    <div className={classes.portfolio} id={props.id}>
       <Text
         left={true}
         text={text}
