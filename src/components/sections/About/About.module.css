@@ -1,14 +1,48 @@
 .about {
-    padding: 6rem 7rem 6rem 9rem;
-    color: #fff;
-    background-color: #020001;
+  padding: 6rem 7rem 6rem 10rem;
+  color: rgb(221, 221, 221);
+  background-color: #020001;
+  min-height: 105vh;
 }
 .primary {
-    display: grid;
-    grid-template-columns: 1fr max-content;
+  display: grid;
+  grid-template-columns: 1fr max-content;
 }
 
 .color {
-    color: #fff;
-    letter-spacing: 0.15rem;
+  color: #fff;
+  letter-spacing: 0.15rem;
+}
+.aboutDiv {
+  margin-top: 3rem;
+  font-size: 1.4rem;
+  padding-right: 9rem;
+}
+
+.aboutDiv > p {
+  margin-bottom: 3rem;
+}
+
+.data {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 8rem;
+  width: 160%;
+  grid-column-gap: 2rem;
+  margin-left: 3rem;
+}
+.description {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+
+.dataitem {
+  color: #020001;
+  padding: 3rem 4rem;
+  border-radius: 0.4rem;
+  box-shadow: 0 4rem 6rem #ffffff3a;
+  /* background-color: rgba(255, 255, 255, 0.85); */
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.75)), url('./d.jpg');
+  background-size: cover;
+  backdrop-filter: blur(5px);
 }
