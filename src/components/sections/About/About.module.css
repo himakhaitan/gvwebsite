@@ -3,6 +3,7 @@
   color: rgb(221, 221, 221);
   background-color: #020001;
   min-height: 105vh;
+  overflow-x: hidden;
 }
 .primary {
   display: grid;
@@ -30,6 +31,7 @@
   width: 160%;
   grid-column-gap: 2rem;
   margin-left: 3rem;
+  animation: regular 1s ease-in-out;
 }
 .description {
   font-size: 1.3rem;
@@ -45,4 +47,15 @@
   background-image: linear-gradient(to right, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.75)), url('./d.jpg');
   background-size: cover;
   backdrop-filter: blur(5px);
+}
+
+@keyframes regular {
+  from {
+    transform: translateX(-8rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
