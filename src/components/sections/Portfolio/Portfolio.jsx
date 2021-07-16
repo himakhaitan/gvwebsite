@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./Portfolio.module.css";
 import Text from "../../text/Text";
+import Pictures from "./Pictures";
 const Portfolio = () => {
   const text = ["Our", "Digital", "Portfolio ."];
   return (
@@ -16,6 +17,9 @@ const Portfolio = () => {
           ipsum!
         </div>
       </Text>
+      <div className={classes.pictures}>
+        <Pictures />
+      </div>
     </div>
   );
 };
