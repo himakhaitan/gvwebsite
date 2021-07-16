@@ -15,3 +15,9 @@ body {
 body {
   user-select: none;
 }
+
+a:active,
+a:link,
+a:visited {
+  color: #020001;
+}

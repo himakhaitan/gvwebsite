@@ -5,21 +5,9 @@ import { FaInstagram } from "react-icons/fa";
 import { GrFormClose } from "react-icons/gr";
 import { TiPhoneOutline } from "react-icons/ti";
 
-// Annimation
-// import { useSpring, animated } from 'react-spring'
-
 const Navigation = (props) => {
-  // const styles = useSpring({ to: { opacity: 1 } ,from: { opacity: 0 }, reset: true, delay: 200, tranform: 'translateX(-300px)' })
   const [nav, setNav] = useState(false);
 
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setNav(false);
-  //   }, 300);
-  //   return () => {
-  //     clearTimeout(timer);
-  //   };
-  // }, [nav]);
   const navHandler = () => {
     setNav((prev) => !prev);
   };
@@ -37,18 +25,36 @@ const Navigation = (props) => {
       )}
       {nav && (
         <ul
-          className={`${nav ? classes.navanimate  : ""} ${classes.navigation}  `}
+          className={`${nav ? classes.navanimate : ""} ${classes.navigation}  `}
         >
-          <li className={classes.listitem}>Home</li>
-          <li className={classes.listitem}>About</li>
-          <li className={classes.listitem}>Portfolio</li>
-          <li className={classes.listitem}>Contact</li>
+          <a href="/">
+            <li className={classes.listitem}>Home</li>
+          </a>
+          <a href="/#about">
+            <li className={classes.listitem}>About</li>{" "}
+          </a>
+          <a href="/#portfolio">
+            <li className={classes.listitem}>Portfolio</li>{" "}
+          </a>
+          <a href="/#contact">
+            <li className={classes.listitem}>Contact</li>{" "}
+          </a>
         </ul>
       )}
       <div className={classes.socials}>
-        <TiPhoneOutline />
-        <HiOutlineMail />
-        <FaInstagram />
+        <a rel="noreferrer" target="_blank" href="https://wa.me/+918460149270">
+          <TiPhoneOutline />
+        </a>
+        <a rel="noreferrer" target="_blank" href="mailto:visiongeeky@gmail.com">
+          <HiOutlineMail />
+        </a>
+        <a
+          rel="noreferrer"
+          target="_blank"
+          href="https://www.instagram.com/geekyvision/"
+        >
+          <FaInstagram />
+        </a>
       </div>
     </nav>
   );
