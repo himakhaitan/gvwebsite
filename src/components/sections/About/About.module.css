@@ -65,7 +65,7 @@
   }
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 65em) {
   .primary {
     display: grid;
     grid-template-columns: 100%;
@@ -73,6 +73,7 @@
   }
   .about {
     padding: 4rem 3rem;
+    min-height: max-content;
   }
   .secondary {
     grid-row: 2 / -1;

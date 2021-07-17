@@ -78,7 +78,7 @@
 }
 /* Responsive */
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 65em) {
   .logoanimate {
     animation: helloMobile 1s ease-in-out;
   }
