@@ -15,6 +15,7 @@ export default function Team() {
         text={text}
         color={classes.color}
         primary={classes.primary}
+        secondary={classes.secondary} 
       >
         <div className={classes.teamDiv}>
           <div>
