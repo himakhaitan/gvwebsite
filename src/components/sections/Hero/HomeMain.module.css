@@ -4,3 +4,9 @@
     background-size: cover;
     background-position: bottom;
 }
+
+@media screen and (max-width: 30em) {
+    .homeMain {
+        overflow-x: hidden;
+    }
+}

@@ -22,3 +22,9 @@ a:link,
 a:visited {
   color: #020001;
 }
+
+@media screen and (max-width: 30em) {
+  body {
+    overflow-x: hidden;
+  }
+}
