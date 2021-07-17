@@ -64,8 +64,40 @@
     opacity: 1;
   }
 }
-
 @media screen and (max-width: 65em) {
+  .primary {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: max-content max-content;
+  }
+  .about {
+    padding: 5rem 8rem;
+    min-height: max-content;
+  }
+  .secondary {
+    grid-row: 2 / -1;
+    margin-top: 0rem;
+  }
+  .data {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(3, max-content);
+    margin-top: 4rem;
+    width: 100%;
+    grid-column-gap: 0rem;
+    margin-left: 0rem;
+  }
+  .aboutDiv {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    padding-right: 0;
+  }
+  .dataitem {
+    box-shadow: 0 6rem 20rem #ffffff3a;
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 30em) {
   .primary {
     display: grid;
     grid-template-columns: 100%;

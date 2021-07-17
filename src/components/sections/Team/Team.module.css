@@ -17,6 +17,12 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
+@media screen and (max-width: 65em) {
+    .team {
+        padding: 5rem 8rem;
+    }
+    
+}
 @media screen and (max-width: 30em) {
     .team {
         padding: 4rem 3rem;

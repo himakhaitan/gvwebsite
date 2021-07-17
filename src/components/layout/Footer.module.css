@@ -44,7 +44,7 @@
   border-radius: 50%;
 }
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 65em) {
   .footer {
     padding: 6rem 4rem;
     background-position: center;
