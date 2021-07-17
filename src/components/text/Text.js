@@ -39,7 +39,7 @@ export default function Text(props) {
             return <span className={props.color}>{item}</span>;
           })}
         </Trail>}
-        <div>{props.children}</div>
+        <div className={props.secondary}>{props.children}</div>
         {!props.left && <Trail open={open}>
           {props.text.map((item) => {
             return <span className={props.color}>{item}</span>;

@@ -27,6 +27,7 @@ const About = (props) => {
         text={text}
         color={classes.color}
         primary={classes.primary}
+        secondary={classes.secondary}
       >
         <div className={classes.aboutDiv}>
           <p>

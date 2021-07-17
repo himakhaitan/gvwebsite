@@ -25,7 +25,7 @@
 }
 
 .footergroup > p > a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 .logo {
   width: 80%;
@@ -42,4 +42,39 @@
 
 .icon {
   border-radius: 50%;
+}
+
+@media screen and (max-width: 30em) {
+  .footer {
+    padding: 6rem 4rem;
+    background-position: center;
+    background-image: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.5)
+      ),
+      url("../../img/home.jpg");
+  }
+  .socials {
+    justify-content: center;
+  }
+  .secondary {
+    margin: 0;
+    text-align: center;
+    grid-row: 1 / 2;
+  }
+  .main {
+    grid-template-columns: 100%;
+  }
+  .disclaimer {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .footergroup {
+    text-align: center;
+  }
+  .logo {
+    width: 100%;
+    margin-bottom: 4.5rem;
+  }
 }
