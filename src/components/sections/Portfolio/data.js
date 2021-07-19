@@ -16,20 +16,20 @@
 //   ]
 
   const data = [
-    { css: '/portfolio/webp/1.webp', height: 500 },
-    { css: '/portfolio/webp/2.webp', height: 300 },
-    { css: '/portfolio/webp/3.webp', height: 300 },
-    { css: '/portfolio/webp/4.webp', height: 300 },
-    { css: '/portfolio/webp/5.webp', height: 300 },
-    { css: '/portfolio/webp/6.webp', height: 300 },
-    { css: '/portfolio/webp/7.webp', height: 300 },
-    { css: '/portfolio/webp/8.webp', height: 300 },
-    { css: '/portfolio/webp/9.webp', height: 300 },
-    { css: '/portfolio/webp/10.webp', height: 400 },
-    { css: '/portfolio/webp/11.webp', height: 300 },
-    { css: '/portfolio/webp/12.webp', height: 500 },
-    { css: '/portfolio/webp/13.webp', height: 400 },
-    { css: '/portfolio/webp/14.webp', height: 300 },
+    { css: '/portfolio/webp/1.webp', height: 500, link: 'https://prateektoshniwal.com/' },
+    { css: '/portfolio/webp/2.webp', height: 300, link: 'https://anujgotrich.in/' },
+    { css: '/portfolio/webp/3.webp', height: 300, link: 'http://howmarketingof.com/' },
+    { css: '/portfolio/webp/4.webp', height: 300, link: 'https://fourpillars.in/' },
+    { css: '/portfolio/webp/5.webp', height: 300, link: 'https://shreeshubhamfab.com/' },
+    { css: '/portfolio/webp/6.webp', height: 300, link: 'https://cakecorner.store/' },
+    { css: '/portfolio/webp/7.webp', height: 300, link: 'http://laxmikamalsarees.com/' },
+    { css: '/portfolio/webp/8.webp', height: 300, link: 'https://maharanibyrungtas.com/'  },
+    { css: '/portfolio/webp/9.webp', height: 300, link: 'https://cakecorner.store/'  },
+    { css: '/portfolio/webp/10.webp', height: 400, link: 'https://lesconseilles.com/'  },
+    { css: '/portfolio/webp/11.webp', height: 300, link: 'https://vistasbyvani.com/'  },
+    { css: '/portfolio/webp/12.webp', height: 500, link: 'https://vistasbyvani.com/'  },
+    { css: '/portfolio/webp/13.webp', height: 400, link: 'https://kotapapers.com/'  },
+    { css: '/portfolio/webp/14.webp', height: 300, link: 'https://anujgotrich.in/'  },
   ]
 
 export default data;
