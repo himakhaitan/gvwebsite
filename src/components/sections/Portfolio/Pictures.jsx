@@ -21,7 +21,7 @@ function Masonry() {
   const [items, set] = useState(data);
   // Hook4: shuffle data every 2 seconds
   useEffect(() => {
-    const t = setInterval(() => set(shuffle), 2000);
+    const t = setInterval(() => set(shuffle), 3000);
     return () => clearInterval(t);
   }, []);
   // Hook5: Form a grid of stacked items using width & columns we got from hooks 1 & 2
