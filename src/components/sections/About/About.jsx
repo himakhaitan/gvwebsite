@@ -6,17 +6,17 @@ const About = (props) => {
     {
       title: "Web Development",
       description:
-        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos non dicta eius saepe asperiores, nihil consectetur explicabo recusandae et ipsa vel error sed perferendis omnis ullam atque architecto a perspiciatis.",
+        "We work on a wide variety of tools including React JS and user friendly Wordpress & Wix for managing businesses! We have made a notable amount of websites either it be a Portfolio or an E-Commerce! ",
     },
     {
       title: "Digital Marketing",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus error, rerum atque corporis iure eum incidunt neque, aliquid minus officiis cum explicabo dolorem officia veniam ipsa quibusdam odio sit iusto.",
+        "We started this service recently, thus providing our clients with a one-stop solution for all of their business needs be it a Website, Social Media Management, or any other.",
     },
     {
       title: "Graphic Desigining",
       description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus error, rerum atque corporis iure eum incidunt neque, aliquid minus officiis cum explicabo dolorem officia veniam ipsa quibusdam odio sit iusto.",
+        "We do create some eye-catching content used not only for social media but useful on the website to enhance the User experience & hence remember your brand. Attractive is the new normal!",
     },
   ];
 
@@ -31,18 +31,21 @@ const About = (props) => {
       >
         <div className={classes.aboutDiv}>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
-            quo excepturi minus sunt vitae dolor obcaecati iusto culpa assumenda
-            veniam aliquid animi ab tempore deserunt, perferendis aut nobis
-            voluptatibus odio?
+            Are you Geeky? If yes, then you are a Geeky Vision. Every geek has a
+            passion for something. But there are some people out there who
+            specialize in working with those passions.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
-            quo excepturi minus sunt vitae dolor obcaecati iusto culpa assumenda
-            veniam aliquid animi ab tempore deserunt, perferendis aut nobis
-            voluptatibus odio?
+            We at Geeky Vision follow our passion into reality. We started as a
+            hobby and eventually turned into a business. We are a team of
+            Developers and Digital Marketers whose focus is to be a part of our
+            client’s growth, not as an agency but as a team member.
           </p>
-          <div className={`${classes.data}`} >
+          <p>
+            We aim to make digital services affordable for all. With this aim in
+            mind, we provide services like:
+          </p>
+          <div className={`${classes.data}`}>
             {data.map((item) => {
               return (
                 <div className={classes.dataitem}>

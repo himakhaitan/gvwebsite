@@ -13,14 +13,16 @@ const Portfolio = (props) => {
         primary={classes.primary}
       >
         <div className={classes.portfolioText}>
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-          molestias eaque aut qui excepturi id! Quae sunt voluptatem placeat
-          provident temporibus cum similique nesciunt nobis, nihil neque tempore
-          a odit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
-          quidem amet iusto temporibus odit facilis nam earum iste, animi ut ea,
-          velit aliquid consequatur expedita id, culpa perspiciatis laboriosam
-          ipsum!</p>
-          <button><a href="https://www.google.com/" rel="noreferrer" target="_blank" >Portfolio</a></button>
+          <p>
+            Below is just a glimpse of work we do. Within a span of one year,
+            we have completed some memorable projects personally as well as
+            professionally. Happy Sharing those with you!
+          </p>
+          <button>
+            <a href="https://www.google.com/" rel="noreferrer" target="_blank">
+              Portfolio
+            </a>
+          </button>
         </div>
       </Text>
       <div className={classes.pictures}>
