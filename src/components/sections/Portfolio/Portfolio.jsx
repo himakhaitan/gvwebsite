@@ -19,7 +19,7 @@ const Portfolio = (props) => {
             professionally. Happy Sharing those with you!
           </p>
           <button>
-            <a href="https://www.google.com/" rel="noreferrer" target="_blank">
+            <a href="https://msha.ke/geekyvision/#links" rel="noreferrer" target="_blank">
               Portfolio
             </a>
           </button>
