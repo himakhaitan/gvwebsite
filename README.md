@@ -1,14 +1,11 @@
 <h1 align="center">
   <br>
   <a><img src="https://github.com/himakhaitan/gvwebsite/blob/main/utils/logo.png" width="200"></a>
-  <br>  
-  Geeky Vision
-  <br>
 </h1>
 <p align="center">
 
 <a href="https://threejs.org/">
-<img src="https://github.com/himakhaitan/gvwebsite/blob/main/utils/three.png" width="100">
+<img src="https://github.com/himakhaitan/gvwebsite/blob/main/utils/three.png" width="80">
 </a>&nbsp;
 <a href="https://reactjs.org/">
 <img src="https://github.com/himakhaitan/gvwebsite/blob/main/utils/react.png" width="100">
